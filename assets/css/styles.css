@@ -11,7 +11,7 @@
     
     
     --first-color: hsl(var(--hue-color), 69%, 61%);
-    --first-color-secound: hsl(var(--hue-color), 69%, 61%);
+    --first-color-second: hsl(var(--hue-color), 69%, 61%);
     --first-color-alt: hsl(var(--hue-color), 57%, 53%);
     --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
     --title-color: hsl(var(--hue-color), 8%, 15%);
@@ -188,7 +188,7 @@ img{
         padding: 2rem 1.5rem 4rem;
         box-shadow: 1px -1px 4px rgba(0,0,0,.15);
         border-radius: 1.5rem 1.5rem 0 0;
-        transform: .3s;       
+        transform: translateY(.3s);      
     }
 }
 
@@ -475,9 +475,10 @@ img{
 .skills__firebase{
     width: 60%;
 }
-.skills__pyhton{
-    width: 85%;
+.skills__python {
+    width: 70%;
 }
+
 
 .skills__figma{
     width: 80%;
@@ -501,4 +502,27 @@ img{
 
 .skills__open .skills__arrow{
     transform: rotate(-180deg);
+}
+
+
+.qualification__tabs{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2);
+}
+
+.qualification__button{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    cursor: pointer;
+}
+
+.qualification__button:hover{
+    color: var(--first-color);
+}
+
+.qualification__icon{
+    font-size: 2rem;
+    margin-right: var(--mb-0-5);
+    color: var(--first-color);
 }
