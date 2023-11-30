@@ -575,4 +575,46 @@ img{
     color: var(--first-color);
 }
 
+.qualification__button.qualification__active .qualification__icon{
+    color: var(--first-color);
+}
+
+.qualification__button.qualification__active .qualification__line{
+    background-color: var(--first-color);
+}
+
+.qualification__button.qualification__active .qualification__rounder{
+    background-color: var(--first-color);
+}
+
+.services__container{
+    row-gap: 2.5rem;
+}
+
+.services__content{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+    align-items: center;
+}
+
+.services__img{
+    width: 200px;
+    justify-self: center;
+}
+
+.services__data{
+    text-align: center;
+}
+
+.services__title{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+}
+
+.services__description{
+    margin-bottom: var(--mb-2);
+}
+
+
 
